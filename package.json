@@ -1,0 +1,22 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "tsc": "tsc -p .",
+    "bundle": "webpack src/main.js dist/main.js",
+    "build": "npm run tsc && npm run bundle",
+	"start": "static ."
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "node-static": "^0.7.9",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3"
+  }
+}
